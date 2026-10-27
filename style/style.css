@@ -1,15 +1,19 @@
 
 body{
-    width: 50%; 
+    width: 59%; 
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #003d52;
+}
+
+.cabecalho img{
+    background-image: url("C:\Users\DEV-1D\Desktop\HTML-AULAS\Aula-6\AT-06\SextaAtividade\imgs\topo.jpg");
+    border: 100%;
+    width: 900px;
 }
 
 .cabecalho{
-    background-image: url("C:\Users\DEV-1D\Desktop\HTML-AULAS\Aula-6\AT-06\SextaAtividade\imgs\topo.jpg");
     background-color: #003d52;
-    border: 100%;
+    width: 900px;
 }
 
 .lista-modelo{
@@ -22,6 +26,7 @@ body{
     list-style: none;
 }
 
-.container{
-    
+.list li{
+    display: inline-block;
+    list-pstyle: none;
 }
