@@ -1,10 +1,28 @@
 
+body{
+    width: 50%; 
+    margin: auto;
+}
+
+.cabecalho{
+    background-image: url("C:\Users\DEV-1D\Desktop\HTML-AULAS\Aula-6\AT-06\SextaAtividade\imgs\topo.jpg");
+    background-color: #003d52;
+    border: 100%;
+}
 
 .nav{
     display: inline-block;
     list-style: none;
 }
 
-#img{
-    
+
+
+.lista-modelo{
+    display: inline-block;
+    list-style: none;
+}
+
+.lista-modelo li{
+    display: inline-block;
+    list-style: none;
 }
