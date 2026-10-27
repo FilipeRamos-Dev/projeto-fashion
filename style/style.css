@@ -3,10 +3,11 @@ body{
     width: 59%; 
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
+   
 }
 
 .cabecalho img{
-    background-image: url("C:\Users\DEV-1D\Desktop\HTML-AULAS\Aula-6\AT-06\SextaAtividade\imgs\topo.jpg");
+    background-image: url(../imgs/topo.jpg);
     border: 100%;
     width: 900px;
 }
@@ -28,5 +29,29 @@ body{
 
 .list li{
     display: inline-block;
-    list-pstyle: none;
+    list-style: none;
 }
+
+iframe{
+    width: 900px;
+}
+
+.rodape{
+    background-color: #003d52;
+    padding: 5px;
+}
+
+.about{
+    color: white;
+    background-image: url(../imgs/bg_detalhe.png);
+    padding: 50px;
+}
+
+#img-01{
+    width: 110px;
+}
+
+#par{
+    width: 50%;
+}
+
